@@ -1,15 +1,14 @@
 /* eslint-disable no-undef */
 // Import the functions you need from the SDKs you need
 import { initializeApp } from 'firebase/app';
-import dotenv from 'dotenv';
-dotenv.config();
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-  apiKey: process.env.VITE_FIREBASE_API||"AIzaSyA-GwzM8Wyr36x4xv9h22PX4gsXGsKVmF8",
+  apiKey:"AIzaSyA-GwzM8Wyr36x4xv9h22PX4gsXGsKVmF8",
   authDomain: "blog-karan.firebaseapp.com",
   projectId: "blog-karan",
   storageBucket: "blog-karan.appspot.com",
