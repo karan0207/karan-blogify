@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: process.env.BASE_URL||"https://karan-blogify.onrender.com",
+        target: process.env.BASE_URL||"https://karan-blogs.onrender.com",
         secure: false,
       },
     },
