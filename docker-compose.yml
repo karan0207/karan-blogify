@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  # Node.js application service
+  nodejs:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+
+  # MongoDB service
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
